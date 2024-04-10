@@ -1,6 +1,7 @@
 package com.kreitek.files;
 
 public interface FileManagement {
+    String getExtension();
     void open();
     void close();
     void setPosition(int numberOfBytesFromBeginning);

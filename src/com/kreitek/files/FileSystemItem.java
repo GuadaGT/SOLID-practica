@@ -8,10 +8,8 @@ public interface FileSystemItem {
     FileSystemItem getParent();
     void setParent(FileSystemItem directory);
     String getFullPath();
-    String getExtension();
     List<FileSystemItem> listFiles();
     void addFile(FileSystemItem file);
     void removeFile(FileSystemItem file);
     int getSize();
-
 }
