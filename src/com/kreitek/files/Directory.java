@@ -39,5 +39,4 @@ public class Directory extends FileSystemItemBase implements FileSystemItem {
         }
         return totalSize;
     }
-
 }

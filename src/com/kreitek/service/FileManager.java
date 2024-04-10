@@ -24,7 +24,6 @@ public class FileManager {
 
     public static int calculateSize(List<FileSystemItem> files) {
         int totalSize = 0;
-
         for(FileSystemItem item : files) {
             if (item instanceof File) {
                 totalSize += item.getSize();

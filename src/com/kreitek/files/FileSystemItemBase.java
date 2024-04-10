@@ -3,6 +3,7 @@ package com.kreitek.files;
 import java.util.List;
 
 public abstract class FileSystemItemBase implements FileSystemItem {
+
     protected static final String PATH_SEPARATOR = "/";
     protected String name;
     protected FileSystemItem parent;
@@ -52,11 +53,6 @@ public abstract class FileSystemItemBase implements FileSystemItem {
         path = path + getName();
         return path;
     }
-
-    @Override
-    public abstract List<FileSystemItem> listFiles();
-
-    @Override
-    public abstract int getSize();
 }
+
 
