@@ -13,11 +13,5 @@ public interface FileSystemItem {
     void addFile(FileSystemItem file);
     void removeFile(FileSystemItem file);
     int getSize();
-    void open();
-    void close();
-    void setPosition(int numberOfBytesFromBeginning);
-    byte[] read(int numberOfBytesToRead);
-    void write(byte[] buffer);
-
 
 }
